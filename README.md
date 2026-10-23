@@ -70,7 +70,6 @@ The UI does not mutate the database directly. Business rules live in the service
 
 ## Quick start - Windows
 
-Quick Start - Windows
 
 Prometheus can be run locally on a Windows computer after cloning or downloading this repository.
 
@@ -86,7 +85,8 @@ An internet connection for the initial dependency installation
 
 No API keys or external database setup are required.
 
-1. Get the Prometheus repository
+
+## 1. Get the Prometheus repository
 
 Option A - Clone with Git
 
@@ -107,7 +107,8 @@ Open the extracted Prometheus folder.
 
 All commands below should be run from inside the Prometheus project folder.
 
-2. Set up the application
+
+## 2. Set up the application
 
 Run:
 
@@ -115,7 +116,8 @@ setup_windows.bat
 
 This creates a local Python virtual environment and installs the required dependencies from requirements.txt.
 
-3. Launch Prometheus
+
+## 3. Launch Prometheus
 
 Run:
 
@@ -127,7 +129,8 @@ Alternatively:
 
 Prometheus should then launch as a desktop application.
 
-4. Demo Login
+
+## 4. Demo Login
 
 Use the preconfigured judge account:
 
@@ -136,13 +139,14 @@ Password: PrometheusDemo26!
 
 The judge account includes seeded demo data for the wallet, portfolio, marketplace, secondary market, and Liquidity Intelligence features.
 
-5. Optional Browser Version
+
+## 5. Optional Browser Version
 
 To run Prometheus in a local web browser instead of the desktop application:
 
 run_web_windows.bat
 
-6. Recommended Demo Path
+## 6. Recommended Demo Path
 
 For the quickest overview of the platform, explore:
 
@@ -154,7 +158,7 @@ Marketplace
 → Liquidity Passport
 → Liquidity Stress Test
 
-Troubleshooting
+## Troubleshooting
 
 If the application does not start, verify the setup with:
 
@@ -164,5 +168,6 @@ Then try launching again with:
 
 .\.venv\Scripts\python.exe app.py
 
-Prometheus uses simulated demo data and is presented as a functioning end-to-end prototype of a private-markets investing platform.
-## Next Section
+
+## Prometheus uses simulated demo data and is presented as a functioning end-to-end prototype of a private-markets investing platform.
+
