@@ -156,7 +156,7 @@ def apply_palette(palette: dict) -> None:
 
 
 def _money(value: float) -> str:
-    return f"R{value:,.2f}"
+    return f"R{value:,.2f}".replace(",", " ")
 
 
 async def main(page: ft.Page):
