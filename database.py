@@ -1,4 +1,4 @@
-"""Database lifecycle utilities for Prometheus V7."""
+"""Database lifecycle utilities for Prometheus."""
 
 from contextlib import contextmanager
 

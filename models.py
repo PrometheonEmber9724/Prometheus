@@ -1,4 +1,4 @@
-"""Database models for Prometheus — final V7 hackathon build.
+"""Database models for Prometheus.
 
 The persistent schema keeps investment, ledger, ownership, Deal Room and
 secondary-market state. Predictive liquidity outputs are computed from current
@@ -30,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent
 INSTANCE_DIR = BASE_DIR / "instance"
 INSTANCE_DIR.mkdir(parents=True, exist_ok=True)
 
-DATABASE_PATH = INSTANCE_DIR / "prometheus_one.db"
+DATABASE_PATH = INSTANCE_DIR / "prometheus.db"
 DEFAULT_DATABASE_URL = f"sqlite:///{DATABASE_PATH.as_posix()}"
 DATABASE_URL = os.getenv("PROMETHEUS_DATABASE_URL", DEFAULT_DATABASE_URL)
 
