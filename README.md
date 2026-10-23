@@ -70,85 +70,99 @@ The UI does not mutate the database directly. Business rules live in the service
 
 ## Quick start - Windows
 
-### 1. Setup
+Quick Start - Windows
 
-```powershell
+Prometheus can be run locally on a Windows computer after cloning or downloading this repository.
+
+Prerequisites
+
+Make sure the following are installed:
+
+Python 3.11 or newer
+
+Git, if cloning the repository
+
+An internet connection for the initial dependency installation
+
+No API keys or external database setup are required.
+
+1. Get the Prometheus repository
+
+Option A - Clone with Git
+
+Open PowerShell, Command Prompt, or the VS Code terminal and run:
+
+git clone https://github.com/PrometheonEmber9724/Prometheus.git
+cd Prometheus
+
+Option B - Download the ZIP
+
+Click Code on this GitHub repository.
+
+Select Download ZIP.
+
+Extract the ZIP file.
+
+Open the extracted Prometheus folder.
+
+All commands below should be run from inside the Prometheus project folder.
+
+2. Set up the application
+
+Run:
+
 setup_windows.bat
-```
 
-### 2. Launch desktop app
+This creates a local Python virtual environment and installs the required dependencies from requirements.txt.
 
-```powershell
+3. Launch Prometheus
+
+Run:
+
 run_windows.bat
-```
 
-Alternative:
+Alternatively:
 
-```powershell
 .\.venv\Scripts\python.exe app.py
-```
 
-### Optional browser launch
+Prometheus should then launch as a desktop application.
 
-```powershell
-run_web_windows.bat
-```
+4. Demo Login
 
-## Judge demo account
+Use the preconfigured judge account:
 
-```text
-Email:    judge@prometheus.demo
+Email: judge@prometheus.demo
 Password: PrometheusDemo26!
-```
 
-The account is pre-seeded with a diversified simulated portfolio, wallet history, secondary-market context and Liquidity Intelligence inputs.
+The judge account includes seeded demo data for the wallet, portfolio, marketplace, secondary market, and Liquidity Intelligence features.
 
-Recommended judge path:
+5. Optional Browser Version
 
-```text
+To run Prometheus in a local web browser instead of the desktop application:
+
+run_web_windows.bat
+
+6. Recommended Demo Path
+
+For the quickest overview of the platform, explore:
+
 Marketplace
 → Deal Room
 → Portfolio
 → Secondary Market
 → Liquidity Intelligence
 → Liquidity Passport
-→ Portfolio Stress Test
-→ Transparency Centre
-```
+→ Liquidity Stress Test
 
-## Other demo accounts
+Troubleshooting
 
-```text
-Demo buyer
-Email: demo@prometheus.local
-Password: Prometheus123!
+If the application does not start, verify the setup with:
 
-Market seller
-Email: seller@prometheus.local
-Password: Seller123!
-```
+.\.venv\Scripts\python.exe check_setup.py
 
-## Run verification tests
+Then try launching again with:
 
-```powershell
-run_tests_windows.bat
-```
+.\.venv\Scripts\python.exe app.py
 
-The test suite verifies the stable investment / wallet / ownership / secondary-market rules and the V7 predictive liquidity layer, including pricing sensitivity and model validation.
-
-## Security / integrity controls
-
-- Salted PBKDF2-HMAC-SHA256 passwords
-- Temporary lockout after repeated failed sign-in attempts
-- Simulated KYC gating
-- Ledger-derived wallet balances
-- Reserved units prevent double-selling
-- Atomic buyer/seller settlement
-- Ownership checks
-- User notifications and audit events
-- Bounded validation on monetary and unit inputs
-- Explainable predictive outputs with confidence and limitations
-
-## Prototype disclosure
-
-Prometheus One is a hackathon prototype. Money, private-market opportunities, KYC, bids, historical listings, model training data and forecasts are simulated. No real financial transaction is processed, no sale is guaranteed, and Liquidity Intelligence does not constitute financial advice.
+Prometheus uses simulated demo data and is presented as a functioning end-to-end prototype of a private-markets investing platform.
+## Next Section
