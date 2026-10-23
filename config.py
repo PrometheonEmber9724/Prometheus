@@ -1,6 +1,6 @@
-"""Central product configuration for Prometheus One."""
+"""Central product configuration for Prometheus."""
 
-PRODUCT_NAME = "Prometheus One"
+PRODUCT_NAME = "Prometheus"
 PRODUCT_VERSION = "7.0-hackathon"
 VENTURE_NAME = "Ember Capital"
 TAGLINE = "Private Markets. Made Accessible."

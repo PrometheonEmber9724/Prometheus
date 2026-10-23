@@ -1,4 +1,4 @@
-"""Explainable liquidity forecasting for Prometheus One.
+"""Explainable liquidity forecasting for Prometheus.
 
 The model is deliberately compact and auditable for a hackathon prototype.
 It trains a deterministic logistic-regression classifier on simulated historical

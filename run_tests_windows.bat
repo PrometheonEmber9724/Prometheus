@@ -10,4 +10,4 @@ if errorlevel 1 exit /b 1
 ".venv\Scripts\python.exe" tests\test_liquidity.py
 if errorlevel 1 exit /b 1
 echo.
-echo ALL PROMETHEUS ONE TESTS PASSED.
+echo ALL Prometheus TESTS PASSED.

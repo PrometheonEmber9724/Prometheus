@@ -1,4 +1,4 @@
-"""Database models for Prometheus One — final V7 hackathon build.
+"""Database models for Prometheus — final V7 hackathon build.
 
 The persistent schema keeps investment, ledger, ownership, Deal Room and
 secondary-market state. Predictive liquidity outputs are computed from current

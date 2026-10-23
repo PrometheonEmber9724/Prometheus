@@ -1,6 +1,6 @@
-# Prometheus One — Security & Responsible Intelligence Notes
+# Prometheus — Security & Responsible Intelligence Notes
 
-Prometheus One is a simulated hackathon prototype. Its security design demonstrates production-minded controls without claiming production readiness.
+Prometheus is a simulated hackathon prototype. Its security design demonstrates production-minded controls without claiming production readiness.
 
 ## Application controls
 

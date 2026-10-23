@@ -1,4 +1,4 @@
-"""Small setup diagnostic for Prometheus One V7."""
+"""Small setup diagnostic for Prometheus V7."""
 
 import sys
 
@@ -36,7 +36,7 @@ def main():
         print(f"FAIL — Prometheus setup: {exc}")
         raise SystemExit(1)
 
-    print("PASS — Flet 1.x and Prometheus One look ready.")
+    print("PASS — Flet 1.x and Prometheus look ready.")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-"""Delete only the Prometheus One demo database and reseed it."""
+"""Delete only the Prometheus demo database and reseed it."""
 
 from pathlib import Path
 from models import DATABASE_PATH, engine

@@ -38,9 +38,9 @@ Open a Liquidity Passport and change the proposed listing price. Confirm that:
 
 Then inspect the Portfolio Liquidity Stress Test, Liquidity Ladder and Transparency Centre.
 
-## What makes Prometheus One different
+## What makes Prometheus  different
 
-**Most investment platforms help investors get in. Prometheus One also helps them understand the path back out.**
+**Most investment platforms help investors get in. Prometheus  also helps them understand the path back out.**
 
 The app combines fractional private-market access, Deal Intelligence, a structured secondary market and explainable predictive Liquidity Intelligence.
 

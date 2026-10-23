@@ -1,4 +1,4 @@
-"""Isolated Prometheus One Liquidity Intelligence tests."""
+"""Isolated Prometheus Liquidity Intelligence tests."""
 
 import os
 from pathlib import Path

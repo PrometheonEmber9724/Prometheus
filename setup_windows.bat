@@ -14,7 +14,7 @@ echo [3/3] Running setup check...
 if errorlevel 1 goto :error
 
 echo.
-echo SETUP COMPLETE. Run run_windows.bat to launch Prometheus One.
+echo SETUP COMPLETE. Run run_windows.bat to launch Prometheus.
 exit /b 0
 
 :error

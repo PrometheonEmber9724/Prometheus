@@ -1,7 +1,7 @@
-"""Human-readable model transparency information for Prometheus One."""
+"""Human-readable model transparency information for Prometheus."""
 
 MODEL_CARD = {
-    "name": "Prometheus One Liquidity Intelligence",
+    "name": "Prometheus Liquidity Intelligence",
     "version": "1.0-hackathon",
     "purpose": "Estimate simulated secondary-market sale probability, expected time-to-sale and pricing sensitivity for private-market positions.",
     "method": "Explainable logistic regression compared with a transparent rules baseline.",

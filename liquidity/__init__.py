@@ -1,4 +1,4 @@
-"""Prometheus One Liquidity Intelligence package."""
+"""Prometheus Liquidity Intelligence package."""
 
 from .engine import (
     LiquidityForecast,

@@ -1,10 +1,10 @@
-"""Prometheus One — final V7 FNB Hackathon build.
+"""Prometheus — final V7 FNB Hackathon build.
 
 Architecture:
     Flet UI -> services.py -> database.py -> models.py -> SQLite
                     -> liquidity/ explainable forecasting engine
 
-Prometheus One preserves the stable V1–V6 private-market investment, wallet,
+Prometheus  preserves the stable V1–V6 private-market investment, wallet,
 ownership, Deal Room, Portfolio Intelligence and atomic secondary-market flows,
 then adds Prometheus Liquidity Intelligence: Liquidity Score, 7/14/30-day sale
 probability, expected time-to-sale, pricing sensitivity, demand signals,
@@ -160,7 +160,7 @@ def _money(value: float) -> str:
 
 
 async def main(page: ft.Page):
-    page.title = "Prometheus One — Private Markets"
+    page.title = "Prometheus — Private Markets"
     page.window.width = 1440
     page.window.height = 920
     page.padding = 0
@@ -210,7 +210,7 @@ async def main(page: ft.Page):
             controls=[
                 ft.Text(value="◆", color=CYAN, size=13 if compact else 17),
                 ft.Text(
-                    value="PROMETHEUS ONE",
+                    value="PROMETHEUS",
                     color=TEXT,
                     size=13 if compact else 16,
                     weight=ft.FontWeight.BOLD,
@@ -578,7 +578,7 @@ async def main(page: ft.Page):
                                     controls=[
                                         brand_lockup(),
                                         spectrum_rule(3),
-                                        chip("PROMETHEUS ONE • FINAL HACKATHON BUILD", "brand"),
+                                        chip("PROMETHEUS • FINAL HACKATHON BUILD", "brand"),
                                         ft.Text(value="Private markets,", size=42, color=TEXT, weight=ft.FontWeight.BOLD),
                                         ft.Text(value="made accessible.", size=42, color=BLUE, weight=ft.FontWeight.BOLD),
                                         ft.Text(
@@ -1440,7 +1440,7 @@ async def main(page: ft.Page):
                     controls=[
                         ft.Text(value="RESPONSIBLE PROTOTYPE DISCLOSURE", size=10, color=BRAND, weight=ft.FontWeight.BOLD),
                         bullet("All investments, balances, bids, returns and KYC states in this build are simulated."),
-                        bullet("Prometheus One is not an authorised live investment service and does not process real money."),
+                        bullet("Prometheus is not an authorised live investment service and does not process real money."),
                         bullet("Scenario Lab and Portfolio Intelligence provide educational context, not financial advice."),
                     ],
                 )
@@ -1550,7 +1550,7 @@ async def main(page: ft.Page):
                                 ft.Row(
                                     wrap=True,
                                     controls=[
-                                        secondary_button("Logout of Prometheus One", lambda e: logout(), ft.Icons.LOGOUT),
+                                        secondary_button("Logout of Prometheus", lambda e: logout(), ft.Icons.LOGOUT),
                                         ft.Text(value="Ends the current local app session and returns to sign in.", color=MUTED, size=9),
                                     ],
                                 ),
@@ -1708,7 +1708,7 @@ async def main(page: ft.Page):
                     spacing=8,
                     controls=[
                         ft.Row(wrap=True, controls=[chip("PROMETHEUS LIQUIDITY INTELLIGENCE", "brand"), chip("SIMULATED DATA", "neutral"), chip(f"CONFIDENCE: {forecast.confidence.upper()}", "positive" if forecast.confidence == "High" else "neutral")]),
-                        ft.Text(value="Most investment platforms focus on getting investors in. Prometheus One also helps them understand the path back out.", color=TEXT, size=17, weight=ft.FontWeight.BOLD),
+                        ft.Text(value="Most investment platforms focus on getting investors in. Prometheus also helps them understand the path back out.", color=TEXT, size=17, weight=ft.FontWeight.BOLD),
                         ft.Text(value="Forecasts are decision-support estimates, not guarantees or financial advice.", color=MUTED, size=10),
                     ],
                 ),
@@ -1829,7 +1829,7 @@ async def main(page: ft.Page):
                 ft.Column(
                     spacing=7,
                     controls=[
-                        chip("PROMETHEUS ONE • JUDGE DEMO", "brand"),
+                        chip("PROMETHEUS • JUDGE DEMO", "brand"),
                         ft.Text(value=f"Recommended journey for {profile.name}", size=25, color=TEXT, weight=ft.FontWeight.BOLD),
                         ft.Text(value="The app is designed to pitch itself: Access → Understand → Trade → Exit Intelligently.", color=MUTED, size=12),
                         ft.Text(value="Credentials: judge@prometheus.demo / PrometheusDemo26!", color=TEAL, size=11, weight=ft.FontWeight.BOLD),
@@ -1856,7 +1856,7 @@ async def main(page: ft.Page):
                     spacing=6,
                     controls=[
                         ft.Text(value="THE V7 DIFFERENTIATOR", size=10, color=VIOLET, weight=ft.FontWeight.BOLD),
-                        ft.Text(value="Prometheus One does not stop at access — it models the path back out.", size=17, color=TEXT, weight=ft.FontWeight.BOLD),
+                        ft.Text(value="Prometheus does not stop at access — it models the path back out.", size=17, color=TEXT, weight=ft.FontWeight.BOLD),
                         bullet("Explainable Liquidity Score and 7/14/30-day sale probability"),
                         bullet("Expected time-to-sale and interactive pricing sensitivity"),
                         bullet("Demand signal, Liquidity Passport and portfolio stress testing"),
@@ -1865,7 +1865,7 @@ async def main(page: ft.Page):
                 )
             ),
         ]
-        display_view("demo_guide", page_heading("Judge Demo Guide", "A repeatable path through Prometheus One's strongest product evidence.", "SHOWCASE"), body)
+        display_view("demo_guide", page_heading("Judge Demo Guide", "A repeatable path through Prometheus's strongest product evidence.", "SHOWCASE"), body)
 
     # ------------------------------------------------------------------
     # Responsive rerender

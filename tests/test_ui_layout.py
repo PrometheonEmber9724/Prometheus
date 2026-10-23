@@ -1,4 +1,4 @@
-"""Static UI safety checks for Prometheus One.
+"""Static UI safety checks for Prometheus.
 
 These tests do not require Flet to be installed. They guard against a Flutter
 layout failure caused by Expanded/expand=True being used as a direct child of a
@@ -59,7 +59,7 @@ def test_logout_is_available_on_desktop_mobile_and_profile() -> None:
     source = APP_PATH.read_text(encoding="utf-8")
     assert 'secondary_button("Logout", lambda e: logout(), ft.Icons.LOGOUT)' in source
     assert source.count('secondary_button("Logout", lambda e: logout(), ft.Icons.LOGOUT)') >= 2
-    assert 'secondary_button("Logout of Prometheus One", lambda e: logout(), ft.Icons.LOGOUT)' in source
+    assert 'secondary_button("Logout of Prometheus", lambda e: logout(), ft.Icons.LOGOUT)' in source
 
 
 if __name__ == "__main__":

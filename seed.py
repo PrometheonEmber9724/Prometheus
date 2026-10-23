@@ -1,4 +1,4 @@
-"""Deterministic demo data for Prometheus One — final hackathon build."""
+"""Deterministic demo data for Prometheus — final hackathon build."""
 
 from decimal import Decimal
 
@@ -168,8 +168,8 @@ def _ensure_welcome_notification(session, user: User):
             Notification(
                 user_id=user.id,
                 category="account",
-                title="Prometheus One ready",
-                message="Prometheus One includes Deal Rooms, Portfolio Intelligence, a near-live secondary market and explainable Liquidity Intelligence.",
+                title="Prometheus ready",
+                message="Prometheus includes Deal Rooms, Portfolio Intelligence, a near-live secondary market and explainable Liquidity Intelligence.",
                 is_read=False,
             )
         )
@@ -293,7 +293,7 @@ def seed_demo_data():
         judge = session.query(User).filter(User.email == JUDGE_EMAIL).first()
         if judge is None:
             judge = User(
-                name="Prometheus One Judge Demo",
+                name="Prometheus Judge Demo",
                 email=JUDGE_EMAIL,
                 password_hash=hash_password(JUDGE_PASSWORD),
                 kyc_status="verified",

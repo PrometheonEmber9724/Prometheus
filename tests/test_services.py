@@ -1,4 +1,4 @@
-"""Isolated Prometheus One core service tests.
+"""Isolated Prometheus core service tests.
 
 Uses a temporary SQLite database and never touches the showcase database.
 """
@@ -139,7 +139,7 @@ def main():
     assert revision.completed_trades >= 1
 
     # New-user ownership + KYC guard still works.
-    newcomer = create_user("Prometheus One New Investor", "po-new@example.com", "POneStrongPassword!", "Conservative")
+    newcomer = create_user("Prometheus New Investor", "po-new@example.com", "POneStrongPassword!", "Conservative")
     expect_error(lambda: invest_in_deal(newcomer.id, solstice.id, 1), "KYC")
     set_demo_kyc_status(newcomer.id, "verified")
     invest_in_deal(newcomer.id, solstice.id, 1)
@@ -156,7 +156,7 @@ def main():
     assert len(get_wallet_transactions(demo.id)) >= 3
     assert len(get_active_listings()) >= 1
 
-    print("PASS — Prometheus One core services, security, Deal Room, portfolio and secondary market are working.")
+    print("PASS — Prometheus core services, security, Deal Room, portfolio and secondary market are working.")
 
 
 if __name__ == "__main__":

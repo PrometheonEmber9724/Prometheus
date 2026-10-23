@@ -1,4 +1,4 @@
-"""Business logic for Prometheus One — final V7 hackathon build.
+"""Business logic for Prometheus — final V7 hackathon build.
 
 Flet calls this module instead of touching SQLAlchemy directly. It preserves the
 proven investing, wallet-ledger, ownership and atomic secondary-market flows,
@@ -6,7 +6,7 @@ alongside notifications, audit/security controls,
 Deal Rooms, a transparent Scenario Lab, Portfolio Intelligence, Capital
 Timelines and an order-book view with indicative bids.
 
-Prometheus One adds an explainable Liquidity Intelligence layer while preserving
+Prometheus adds an explainable Liquidity Intelligence layer while preserving
 the stable V1–V6 transaction, ownership, wallet and secondary-market rules.
 """
 
