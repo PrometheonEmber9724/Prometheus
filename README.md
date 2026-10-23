@@ -1,12 +1,12 @@
-# Prometheus One
+# Prometheus
 
 **Ember Capital - Final FNB Hackathon Build**  
 **Private Markets. Made Accessible.**  
 **Access → Understand → Trade → Exit Intelligently**
 
-Prometheus One is a fractional private-markets investment prototype that helps investors discover opportunities, understand them, invest, monitor a portfolio, trade through a structured secondary market, and model the path back out through **Prometheus Liquidity Intelligence**.
+Prometheus is a fractional private-markets investment prototype that helps investors discover opportunities, understand them, invest, monitor a portfolio, trade through a structured secondary market, and model the path back out through **Prometheus Liquidity Intelligence**.
 
-> Most investment platforms focus on getting investors in. Prometheus One also helps them understand the path back out.
+> Most investment platforms focus on getting investors in. Prometheus also helps them understand the path back out.
 
 ## Core product journey
 
