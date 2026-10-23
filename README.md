@@ -1,6 +1,6 @@
 # Prometheus One
 
-**Ember Capital — Final FNB Hackathon Build**  
+**Ember Capital - Final FNB Hackathon Build**  
 **Private Markets. Made Accessible.**  
 **Access → Understand → Trade → Exit Intelligently**
 
@@ -13,7 +13,7 @@ Prometheus One is a fractional private-markets investment prototype that helps i
 1. **Marketplace** — discover simulated private-market opportunities.
 2. **Deal Room** — review thesis, use of funds, risks, documents, scenario analysis and capital timeline.
 3. **Fractional Invest** — invest in units with KYC gating and wallet-ledger accounting.
-4. **Portfolio Intelligence** — review concentration, risk, income/growth mix and capital journey.
+4. **Portfolio Intelligence** - review concentration, risk, income/growth mix and capital journey.
 5. **Secondary Market** — list holdings, view indicative bids and executable asks, and settle simulated trades atomically.
 6. **Liquidity Intelligence** — forecast sale probability, time-to-sale and pricing sensitivity before listing.
 
