@@ -124,9 +124,9 @@ Run:
 run_windows.bat
 
 Alternatively:
-
+```
 .\.venv\Scripts\python.exe app.py
-
+```
 Prometheus should then launch as a desktop application.
 
 
