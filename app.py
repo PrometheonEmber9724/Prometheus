@@ -1,15 +1,17 @@
-"""Prometheus — final V7 FNB Hackathon build.
+"""Prometheus - private-market investment and liquidity intelligence platform.
 
 Architecture:
     Flet UI -> services.py -> database.py -> models.py -> SQLite
-                    -> liquidity/ explainable forecasting engine
+                    -> liquidity / explainable forecasting engine
 
-Prometheus  preserves the stable V1–V6 private-market investment, wallet,
-ownership, Deal Room, Portfolio Intelligence and atomic secondary-market flows,
-then adds Prometheus Liquidity Intelligence: Liquidity Score, 7/14/30-day sale
-probability, expected time-to-sale, pricing sensitivity, demand signals,
-explainability, confidence, portfolio stress testing, a Liquidity Passport and
-transparent simulated-model validation.
+Prometheus combines private-market investing, wallet and ownership management,
+Deal Room functionality, Portfolio Intelligence, secondary-market trading,
+and Liquidity Intelligence.
+
+Liquidity Intelligence provides liquidity scoring, sale-probability estimates,
+expected time-to-sale, pricing sensitivity, demand signals, explainability,
+confidence indicators, portfolio stress testing, Liquidity Passports, and
+simulated-model validation.
 """
 
 import asyncio
