@@ -19,7 +19,7 @@ Prometheus One is a fractional private-markets investment prototype that helps i
 
 ## Prometheus Liquidity Intelligence
 
-The V7 innovation layer includes:
+The innovation layer includes:
 
 - Liquidity Score (0–100)
 - 7 / 14 / 30-day modeled sale probability
