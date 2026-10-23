@@ -10,12 +10,12 @@ Prometheus One is a fractional private-markets investment prototype that helps i
 
 ## Core product journey
 
-1. **Marketplace** — discover simulated private-market opportunities.
-2. **Deal Room** — review thesis, use of funds, risks, documents, scenario analysis and capital timeline.
-3. **Fractional Invest** — invest in units with KYC gating and wallet-ledger accounting.
+1. **Marketplace** - discover simulated private-market opportunities.
+2. **Deal Room** - review thesis, use of funds, risks, documents, scenario analysis and capital timeline.
+3. **Fractional Invest** - invest in units with KYC gating and wallet-ledger accounting.
 4. **Portfolio Intelligence** - review concentration, risk, income/growth mix and capital journey.
-5. **Secondary Market** — list holdings, view indicative bids and executable asks, and settle simulated trades atomically.
-6. **Liquidity Intelligence** — forecast sale probability, time-to-sale and pricing sensitivity before listing.
+5. **Secondary Market** - list holdings, view indicative bids and executable asks, and settle simulated trades atomically.
+6. **Liquidity Intelligence** - forecast sale probability, time-to-sale and pricing sensitivity before listing.
 
 ## Prometheus Liquidity Intelligence
 
@@ -68,7 +68,7 @@ SQLite prototype
 
 The UI does not mutate the database directly. Business rules live in the service layer and secondary-market settlement occurs inside a transaction boundary.
 
-## Quick start — Windows
+## Quick start - Windows
 
 ### 1. Setup
 
